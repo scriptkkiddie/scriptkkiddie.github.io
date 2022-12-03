@@ -1,1 +1,1 @@
-# apps.technical0812.com
+# apps.shobhitsharma.net
