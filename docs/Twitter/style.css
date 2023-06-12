@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #0e1620;
+    display: grid;
+    grid-template-columns: 300px 600px 300px;
+    padding: 0px 30px;
+}
+
 .profile {
     width: 300px;
     font-family: 'Roboto', sans-serif;
-    border: 2px solid rgb(255, 255, 255);
 }
 
 .profile img {
@@ -60,11 +69,17 @@ hr {
 
 .stat-box {
     padding: 5px 0;
+    display: flex;
 }
 
 .stat-box div {
     width: 100%;
     text-align: center;
+}
+
+.stat-box h3 {
+    color: #F5F8FA;
+    margin-bottom: 0;
 }
 
 .stat-box p {
@@ -88,18 +103,21 @@ hr {
     border-radius: 12px;
     padding: 14px;
     margin: 10px 0px;
-    gap: 14px;
 }
 
 .follow-suggestion h4 {
     color: #F5F8FA;
-    margin: 0 0 20px;
+    margin: 0 0 20px 0;
     font-size: 18px;
     font-weight: 500;
 }
 
 .follow-profile {
+    display: flex;
+    gap: 5px;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 0 10px;
 }
 
@@ -107,4 +125,62 @@ hr {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
+}
+
+.follow-info p {
+    font-size: 12px;
+    margin: 3px;
+    color: #657786;
+}
+
+.follow-info h5 {
+    font-size: 15px;
+    color: #F5F8FA;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.follow-btn {
+    background: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 7px 15px;
+    text-align: center;
+    height: fit-content;
+}
+
+.show-more {
+    font-size: 12px;
+    margin: 25px 0 5px 0;
+    color: #1DA1F2;
+}
+
+.trending {
+    background-color: #243447;
+    height: 500px;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+.trend-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.trend-header h4 {
+    margin: 5px 0px;
+}
+
+.trend-category h3 {
+    color: #AAB8C2;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.posts {
+    background-color: #243447;
+    margin: 0px 20px;
 }
