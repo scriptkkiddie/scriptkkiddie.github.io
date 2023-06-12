@@ -1,50 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .profile {
-    width: 250px;
+    width: 300px;
     font-family: 'Roboto', sans-serif;
-    border: none;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .profile img {
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
-}
-
-.profile h1 {
-    font-size: 23px;
-    color: rgb(245, 248, 250);
-}
-
-.profile h2 {
-    font-size: 15px;
-}
-
-.profile p {
-    font-size: 10px;
+    position: relative;
+    top: 25px;
 }
 
 .profile-header {
     border-radius: 12px 12px 0 0;
+    text-align: center;
+    background: rgb(13, 104, 231);
+    background: url('https://apps.shobhitsharma.net/raw/Cover.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .profile-body {
     border-radius: 0 0 15px 15px;
+    background-color: #243447;
+}
+
+.profile-info {
+    margin: 0 30px;
+    padding: 35px 0 10px;
+    text-align: center;
 }
 
 .profile-info h1 {
     font-weight: 300;
     margin: 0px 0;
+    font-size: 23px;
+    color: #F5F8FA;
 }
 
 .profile-info h2 {
     margin: 5px 0;
+    color: #657786;
+    font-size: 15px;
 }
 
 .profile-info p {
     color: rgb(170, 184, 194);
     font-size: 13px;
+}
+
+hr {
+    border-color: #243447;
+    border-width: 0.1;
+    margin: 0;
+}
+
+.stat-box {
+    padding: 5px 0;
+}
+
+.stat-box div {
+    width: 100%;
+    text-align: center;
+}
+
+.stat-box p {
+    color: #AAB8C2;
+    margin-top: 8px;
+}
+
+.my-profile {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.my-profile p {
+    color: #1DA1F2;
 }
 
 .follow-suggestion {
@@ -54,6 +88,7 @@
     border-radius: 12px;
     padding: 14px;
     margin: 10px 0px;
+    gap: 14px;
 }
 
 .follow-suggestion h4 {
