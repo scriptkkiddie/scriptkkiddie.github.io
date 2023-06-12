@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.profile {
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.profile img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 23px;
+    color: rgb(245, 248, 250);
+}
+
+.profile h2 {
+    font-size: 15px;
+}
+
+.profile p {
+    font-size: 10px;
+}
+
+.profile-header {
+    border-radius: 12px 12px 0 0;
+}
+
+.profile-body {
+    border-radius: 0 0 15px 15px;
+}
+
+.profile-info h1 {
+    font-weight: 300;
+    margin: 0px 0;
+}
+
+.profile-info h2 {
+    margin: 5px 0;
+}
+
+.profile-info p {
+    color: rgb(170, 184, 194);
+    font-size: 13px;
+}
+
+.follow-suggestion {
+    font-family: 'Roboto', sans-serif;
+    background-color: #243447;
+    width: 270px;
+    border-radius: 12px;
+    padding: 14px;
+    margin: 10px 0px;
+}
+
+.follow-suggestion h4 {
+    color: #F5F8FA;
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-profile {
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.follow-profile img {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
